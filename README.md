@@ -12,7 +12,7 @@ MBA系统的UI规范和公用模块
 ### 1.2 模块文件：
         \css 下新建该模块名称文件夹，然后把该模块css文件放到这下面，例如:report文件夹下面的traffic\index.scss。
     
-    注：MBA项目中大部分都已经使用Sass进行书写编译，所以需要修改的是原.scss文件，然后使用Ruby的"sass base.scss base.css"指令进行编译。 
+### 注：MBA项目中大部分都已经使用Sass进行书写编译，所以需要修改的是原.scss文件，然后使用Ruby的"sass base.scss base.css"指令进行编译。 
 
 ## 2 base.css 使用注释
 
