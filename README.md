@@ -16,4 +16,13 @@ MBA系统的UI规范和公用模块
 
 ## 2 base.css 使用注释
 
-    
+
+## 3 common.scss 使用注释
+### 3.1 框架部分
+### 3.2 CMD通用组件部分
+
+#### .cmdUI-select
+     注释：通用的下拉选择框
+     Demo：<select class="cmdUI-select"></select>
+     样例UI展示：http://
+     
