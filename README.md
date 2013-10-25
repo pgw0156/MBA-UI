@@ -26,3 +26,5 @@ MBA系统的UI规范和公用模块
      Demo：<select class="cmdUI-select"></select>
      样例UI展示：http://
      
+#### .cmdUI-btn-on
+     注释：
