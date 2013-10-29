@@ -5,10 +5,15 @@ MBA系统的UI规范和公用模块
 
 ## 1 文件结构：
     
-### 1.1 基础文件：
-        \css\new_UI\base.css        // 基础base的css
-        \css\new_UI\common.css      // 编写一些公用UI和组件UI的css
+### 1.1 目录结构：
+        
+        \css\new_UI\base.scss        // 基础base的css
+        \css\new_UI\common.scss      // 编写一些公用UI和组件UI的css
+        \css\new_UI\font.scss      // 编写一些常用板块字体的样式
+        \css\new_UI\pack.scss      // 编写cmdUI的组件的样式
+        
         \css\new_UI\libs  ........
+        
 ### 1.2 模块文件：
         \css 下新建该模块名称文件夹，然后把该模块css文件放到这下面，例如:report文件夹下面的traffic\index.scss。
     
