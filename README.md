@@ -10,7 +10,7 @@ MediaV的CSS公用模块库
 ### 1.1 公用scss文件概览：
          /* 单独编写，可以考虑完成后放在静态域名下 */
         \reset.scss        // reset的css,在compass下
-        \font.scss        // 一些常用板块字体的样式,如：.font-link {}
+        \font.scss        // 一些常用板块字体的样式，按照光宇出的样式编写，如：.font-tips {font-size:12px; color:#ca1a00; }
         \component.scss      // 编写cmdUI的组件的样式
         
         \common.scss      // 编写一些公用UI和组件UI的css
@@ -24,7 +24,7 @@ MediaV的CSS公用模块库
 ## 2 公用CSS 使用注释
 ### 2.1 reset.scss：
         /* 包含reset的css样式，如：清除标签默认边距、a标签的默认样式、table的重置、列表元素的样式、body内的默认字号字体 、input和textarea的默认样式等等 */
-        可以直接使用
+        可以直接使用compass里面的内嵌reset样式，@import "compass/reset"
         
 
 ## 3 common.scss 使用注释
