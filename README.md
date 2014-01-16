@@ -11,14 +11,16 @@ MediaV的CSS公用模块库
         /* 以下每个.scss文件皆单独编写，可以考虑完成后放在静态域名下？ */
         /reset.scss       // reset的css
         
-        /common.scss        // 定义一些比较常用的基本样式，分类有：框模型、定位、对齐、常用尺寸等，如：.p-r {position:relative;}
+        /common.scss        // 定义一些比较常用的基本样式，分类有：框模型、定位、对齐、常用尺寸等，如：.p-r {position:relative;}, .clearfix {}
         
-        /font.scss        // 一些常用板块字体的样式，按照光宇出的样式编写，另外还有一些常用的字体字号行高，如：.font-tips {font-size:12px; color:#ca1a00; }  .f-12 {font-size:12px;}
+        /font.scss        // 一些常用板块字体的样式，按照光宇出的样式编写，另外还有一些常用的字体字号行高，如：.font-tips {font-size:12px; color:#ca1a00; }  .f-12 {}
         /icons.scss       // 各种小icon的集合(还有hover状态的)，小icons都用css sprite合并成一张图片，如：.icon-help {}
         
         /component-common.scss   // 根据潘爷吴氏控件库的通用控件模块进行编写 (适当调整和选取)
         /component-content.scss  // 根据潘爷吴氏控件库的内容展示控件模块进行编写
         /component-base.scss     // 根据潘爷吴氏控件库的基础控件模块进行编写
+        
+        /util.scss        // 其它乱七八糟的样式补充进来吧
         
         /* 这个大概把基础的公用组件涵括了，编译到一个.css文件里面 */
         /mvui.scss      // 把需要的子scss文件导入进来进行编译，合并成一个文件mvui.css，具体代码：@import "reset.scss"; @import "font.scss";
@@ -26,7 +28,7 @@ MediaV的CSS公用模块库
         /* 下面是具体到每个系统层面的东西了 */
         
         theme-dmp.css，theme-atd.css   // 相当于一个相当于皮肤的css文件包括对上面基础css文件的样式进行修改补充，主要是每套系统的个性化的地方，例如：.nav { background:red; border-color:grey; }
-        common-dmp.css，common-atd.css // 该系统的一些独有的公用样式
+        common-dmp.css，common-atd.css // 该系统的一些独有的公用样式，剩下的一些样式自己添加去吧
         
         /各个JS功能组件库.css，如：radio.css，tab.css
         /各个JS业务组件库.css，如：table-mba.css，dateSelector.css
