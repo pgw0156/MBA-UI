@@ -3,7 +3,7 @@ MV-UI
 
 MediaV的CSS公用模块库
 
-## 技术框架：MBA项目中大部分都已经使用Sass+Compass进行编写编译和构建的，每次修改的需要是原.scss文件。(compass里面的mixin.sass的一些“函数”还是能节约一部分代码的，另外还有css3的部分) 
+## 技术框架：MBA项目中很多部分已经使用Sass+Compass进行编写编译和构建的，每次修改的需要是原.scss文件。(compass里面的mixin.sass的一些“函数”还是能节约一部分代码的，另外还有css3的部分) 
 
 ## 1 文件结构：
     
@@ -73,3 +73,4 @@ MediaV的CSS公用模块库
      </div>
      样例UI展示：http://xxxxxxxx
      
+
