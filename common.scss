@@ -4,7 +4,29 @@
  * @ description : mediav UI 的 common常用类部分
  * @ author : 潘国伟 pangw@mediav.com
  * @ update : 2014-02-11
-*/
+ */
 
+/* 清除浮动浮动 */
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
 
+/*  */
+.span1 {
+  width:80px;
+  height:26px;
+  display:block;
+}
 
+.span2 {}
