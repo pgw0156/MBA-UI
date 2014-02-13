@@ -75,20 +75,11 @@ textarea {
 }
 
 // HTML5 element (Display in IE6-9 and FF3)
-article,
-aside,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section {
+article, aside, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
-audio,
-canvas,
-video {
+audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -98,6 +89,6 @@ video {
 // set inherit font
 body,
 button, input, select, textarea /* for ie */ {
-	font: 12px/1 "微软雅黑", tahoma, arial;
+	font: 12px/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", STXihei ;
 }
 
