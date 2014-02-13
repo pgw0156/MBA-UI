@@ -16,9 +16,9 @@ MediaV的CSS公用模块库
         /font.scss        // 一些常用板块字体的样式，按照光宇出的样式编写，另外还有一些常用的字体字号行高，如：.font-tips {font-size:12px; color:#ca1a00; }  .f-12 {}
         /icons.scss       // 各种小icon的集合(还有hover状态的)，小icons都用css sprite合并成一张图片，如：.icon-help {}
         
-        /component-common.scss   // 根据潘爷吴氏控件库的通用控件模块进行编写 (适当调整和选取)
-        /component-content.scss  // 根据潘爷吴氏控件库的内容展示控件模块进行编写
-        /component-base.scss     // 根据潘爷吴氏控件库的基础控件模块进行编写
+        /component-common.scss   // 根据mv-css控件库的通用控件模块进行编写 (适当调整和选取)
+        /component-content.scss  // 根据mv-css控件库的内容展示控件模块进行编写
+        /component-base.scss     // 根据mv-css控件库的基础控件模块进行编写
         
         /util.scss        // 其它乱七八糟的样式补充进来吧
         
@@ -43,7 +43,7 @@ MediaV的CSS公用模块库
         可以直接使用compass里面的内嵌reset样式，@import "compass/reset"，另外还需要一些全局变量
         
 
-## 3 潘爷吴氏css 使用注释
+## 3 mv-css 使用注释
 ### 3.1 mv通用控件模块(component-common.scss)
 #### .mvui-modal
      注释：传说中的蒙太层
