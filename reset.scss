@@ -1,6 +1,6 @@
 /*
  * @ name : reset.scss
- * @ version : 0.1
+ * @ version : 0.2
  * @ description : mediav UI 的 reset部分
  * @ author : 潘国伟 pangw@mediav.com
  * @ update : 2014-01-22
@@ -10,7 +10,8 @@ html, body, h1, h2, h3, h4, h5, h6, hr, object, iframe, p, blockquote, /* struct
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
 pre, /* text formatting elements 文本格式元素 */
 form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
-table, caption, tbody, tfoot, thead, tr, th, td /* table elements 表格元素 */
+table, caption, tbody, tfoot, thead, tr, th, td, /* table elements 表格元素 */
+article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video /* HTML5 elements HTML5标签元素 */
 {
   margin: 0;
   padding: 0;
@@ -24,8 +25,6 @@ table, caption, tbody, tfoot, thead, tr, th, td /* table elements 表格元素 *
 html {
   font-size: 100%;
   line-height: 1;
-  /*-webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;*/
 }
 
 ol, ul {
@@ -42,10 +41,6 @@ caption, th, td {
   vertical-align: middle;
 }
 
-a img {
-  border: none;
-}
-
 a { 
   text-decoration: none; 
 }
@@ -57,7 +52,6 @@ img {
   max-width: 100%; /* Set a maxium relative to the parent */
   width: auto\9; /* IE7-8 need help adjusting responsive images */
   height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */
-
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -83,8 +77,6 @@ textarea {
 // HTML5 element (Display in IE6-9 and FF3)
 article,
 aside,
-details,
-figcaption,
 figure,
 footer,
 header,
