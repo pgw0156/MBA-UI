@@ -6,15 +6,27 @@
  * @ update : 2014-02-11
  */
 
-/* 清除浮动浮动 */
+/** css变量 **/
+$spanHeight : 26px;
+$size1 :  40px; 
+$size2 :  60px;
+$size3 :  100px;
+$size4 :  110px;
+$size5 :  180px;
+$size6 :  210px;
+$size7 :  210px;
+
+$headBg : #f3f3f3;
+
+/* name:     layout 
+ * example:  
+ */
 .clearfix {
   *zoom: 1;
   &:before,
   &:after {
     display: table;
     content: "";
-    // Fixes Opera/contenteditable bug:
-    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
     line-height: 0;
   }
   &:after {
@@ -22,18 +34,61 @@
   }
 }
 
+.wrap {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.hide { 
+  display:none !important; 
+  visibility:hidden; 
+}
+.block { 
+  display:block !important; 
+}
+.inline {
+  margin-bottom: 0;
+  vertical-align: middle;
+  display: inline;
+}
+
+.fl { 
+  float:left; 
+  display:inline; 
+} 
+.fr { 
+  float:right; 
+  display:inline; 
+}
+
+
+
 /* mv-frame */
-.mv-frame-header {}
+.mv-frame-header {
+  width:100%;
+  height:90px;
+  background: $headBg;
+  .logo {
+    float:left;
+    height:56px;
+    margin:14px 0 0 10px;
+  }
+}
 .mv-frame-menu {}
 .mv-frame-title {}
 .mv-frame-footer {}
 .mv-frame-cotent {}
 
-/*  */
-.span1 {
-  width:80px;
-  height:26px;
-  display:block;
+/* name:     span size 
+ * example:  .size1 { width:40px; }
+ */
+/* setSize(width, height, line-height) */
+@for $i from 1 to 7 {
+　.mv-span#{$i} {
+    width: $size#{$i};
+    height: $spanHeight;
+    display: inline-block;
+  }
 }
 
-.span2 {}
+/*  */
